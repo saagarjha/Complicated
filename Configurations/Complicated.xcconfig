@@ -1,0 +1,12 @@
+//
+//  Complicated.xcconfig
+//  Complicated
+//
+//  Created by Saagar Jha on 6/20/22.
+//
+
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+INFOPLIST_KEY_CFBundleDisplayName = $(PRODUCT_NAME)
+PRODUCT_BUNDLE_IDENTIFIER = $(BASE_BUNDLE_ID)
+PRODUCT_NAME = $(TARGET_NAME)
+SDKROOT = iphoneos

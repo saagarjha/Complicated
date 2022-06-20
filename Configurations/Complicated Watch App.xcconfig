@@ -1,0 +1,22 @@
+//
+//  Complicated Watch App.xcconfig
+//  Complicated
+//
+//  Created by Saagar Jha on 6/20/22.
+//
+
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor
+ENABLE_PREVIEWS = YES
+GENERATE_INFOPLIST_FILE = YES
+INFOPLIST_FILE = $(TARGET_NAME)/Info.plist
+INFOPLIST_KEY_CFBundleDisplayName = Complicated
+INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown
+INFOPLIST_KEY_WKWatchOnly = YES
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks
+PRODUCT_BUNDLE_IDENTIFIER = $(BASE_BUNDLE_ID).watchkitapp
+PRODUCT_NAME = $(TARGET_NAME)
+SDKROOT = watchos
+SKIP_INSTALL = YES
+TARGETED_DEVICE_FAMILY = 4

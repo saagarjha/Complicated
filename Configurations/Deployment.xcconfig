@@ -1,0 +1,13 @@
+//
+//  Deployment.xcconfig
+//  Complicated
+//
+//  Created by Saagar Jha on 6/20/22.
+//
+
+BASE_BUNDLE_ID = com.saagarjha.Complicated
+
+CODE_SIGN_STYLE = Automatic
+CURRENT_PROJECT_VERSION = 1
+DEVELOPMENT_TEAM = X4A9GH5NN2
+MARKETING_VERSION = 1.0
