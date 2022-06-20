@@ -1,0 +1,19 @@
+//
+//  Widget.xcconfig
+//  Complicated
+//
+//  Created by Saagar Jha on 6/20/22.
+//
+
+ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor
+ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground
+CODE_SIGN_ENTITLEMENTS = $(PRODUCT_NAME)/$(PRODUCT_NAME).entitlements
+GENERATE_INFOPLIST_FILE = YES
+INFOPLIST_FILE = $(PRODUCT_NAME)/Info.plist
+INFOPLIST_KEY_CFBundleDisplayName = $(PRODUCT_NAME)
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks @executable_path/../../Frameworks @executable_path/../../../../Frameworks
+PRODUCT_BUNDLE_IDENTIFIER = $(BASE_BUNDLE_ID).watchkitapp.$(PRODUCT_NAME)
+PRODUCT_NAME = $(TARGET_NAME)
+SDKROOT = watchos
+SKIP_INSTALL = YES
+TARGETED_DEVICE_FAMILY = 4

@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4927885E2930714800B46095 /* StockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4927885D2930714800B46095 /* StockView.swift */; };
+		492788602930C6F500B46095 /* RoundedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4927885F2930C6F500B46095 /* RoundedTextView.swift */; };
+		495E41212860921F00AD63E2 /* WeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495E411F286091E600AD63E2 /* WeatherForecast.swift */; };
+		495E41242860926500AD63E2 /* WeatherForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495E41222860924300AD63E2 /* WeatherForecastView.swift */; };
+		495E41272860929000AD63E2 /* InlineLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495E41252860928900AD63E2 /* InlineLabel.swift */; };
+		495E412A286092B200AD63E2 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495E4128286092AE00AD63E2 /* Weather.swift */; };
+		495E412D2860931A00AD63E2 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495E412B2860930A00AD63E2 /* Location.swift */; };
+		495E41302860935000AD63E2 /* HourForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495E412E2860934200AD63E2 /* HourForecastView.swift */; };
+		495E41332860938100AD63E2 /* WeatherProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495E41312860937A00AD63E2 /* WeatherProvider.swift */; };
+		495E413B2860959C00AD63E2 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495E4134286093AC00AD63E2 /* Image.swift */; };
+		4971D7D1293060ED009AC493 /* StocksProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971D7D0293060ED009AC493 /* StocksProvider.swift */; };
+		4971D7D32930626E009AC493 /* StockQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971D7D22930626E009AC493 /* StockQuote.swift */; };
+		4993A52F285EC70D005DD25E /* Complicated Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4993A52E285EC70D005DD25E /* Complicated Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4993A534285EC70D005DD25E /* ComplicatedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4993A533285EC70D005DD25E /* ComplicatedApp.swift */; };
+		4993A536285EC70D005DD25E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4993A535285EC70D005DD25E /* ContentView.swift */; };
+		4993A538285EC70E005DD25E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4993A537285EC70E005DD25E /* Assets.xcassets */; };
+		4993A54C285EC762005DD25E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4993A54B285EC762005DD25E /* WidgetKit.framework */; };
+		4993A54E285EC762005DD25E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4993A54D285EC762005DD25E /* SwiftUI.framework */; };
+		4993A551285EC762005DD25E /* Widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4993A550285EC762005DD25E /* Widgets.swift */; };
+		4993A553285EC763005DD25E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4993A552285EC763005DD25E /* Assets.xcassets */; };
+		4993A557285EC763005DD25E /* Widget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4993A549285EC762005DD25E /* Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		49BEC37629333FC800A0EED0 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BEC37529333FC800A0EED0 /* Shared.swift */; };
+		49BEC37729333FC800A0EED0 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BEC37529333FC800A0EED0 /* Shared.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4993A530285EC70D005DD25E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4993A522285EC70D005DD25E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4993A52D285EC70D005DD25E;
+			remoteInfo = "Complicated Watch App";
+		};
+		4993A555285EC763005DD25E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4993A522285EC70D005DD25E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4993A548285EC762005DD25E;
+			remoteInfo = WidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4993A541285EC70E005DD25E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4993A52F285EC70D005DD25E /* Complicated Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4993A55B285EC763005DD25E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4993A557285EC763005DD25E /* Widget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4927885D2930714800B46095 /* StockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockView.swift; sourceTree = "<group>"; };
+		4927885F2930C6F500B46095 /* RoundedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextView.swift; sourceTree = "<group>"; };
+		495E411C2860911700AD63E2 /* Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Widget.entitlements; sourceTree = "<group>"; };
+		495E411D2860912100AD63E2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		495E411F286091E600AD63E2 /* WeatherForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecast.swift; sourceTree = "<group>"; };
+		495E41222860924300AD63E2 /* WeatherForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastView.swift; sourceTree = "<group>"; };
+		495E41252860928900AD63E2 /* InlineLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineLabel.swift; sourceTree = "<group>"; };
+		495E4128286092AE00AD63E2 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		495E412B2860930A00AD63E2 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		495E412E2860934200AD63E2 /* HourForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourForecastView.swift; sourceTree = "<group>"; };
+		495E41312860937A00AD63E2 /* WeatherProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherProvider.swift; sourceTree = "<group>"; };
+		495E4134286093AC00AD63E2 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		495E41372860940900AD63E2 /* Deployment.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Deployment.xcconfig; sourceTree = "<group>"; };
+		495E41382860941300AD63E2 /* Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
+		495E41392860942100AD63E2 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		495E413A2860942700AD63E2 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		495E413C286095FB00AD63E2 /* Complicated.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Complicated.xcconfig; sourceTree = "<group>"; };
+		495E413D2860960700AD63E2 /* Complicated Watch App.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Complicated Watch App.xcconfig"; sourceTree = "<group>"; };
+		495E413E2860960C00AD63E2 /* Widget.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Widget.xcconfig; sourceTree = "<group>"; };
+		4971D7D0293060ED009AC493 /* StocksProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksProvider.swift; sourceTree = "<group>"; };
+		4971D7D22930626E009AC493 /* StockQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockQuote.swift; sourceTree = "<group>"; };
+		4993A528285EC70D005DD25E /* Complicated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Complicated.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4993A52E285EC70D005DD25E /* Complicated Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Complicated Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4993A533285EC70D005DD25E /* ComplicatedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicatedApp.swift; sourceTree = "<group>"; };
+		4993A535285EC70D005DD25E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4993A537285EC70E005DD25E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4993A549285EC762005DD25E /* Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Widget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4993A54B285EC762005DD25E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		4993A54D285EC762005DD25E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		4993A550285EC762005DD25E /* Widgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widgets.swift; sourceTree = "<group>"; };
+		4993A552285EC763005DD25E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4993A554285EC763005DD25E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49BEC37529333FC800A0EED0 /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4993A52B285EC70D005DD25E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4993A546285EC762005DD25E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4993A54E285EC762005DD25E /* SwiftUI.framework in Frameworks */,
+				4993A54C285EC762005DD25E /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		495E4136286093E700AD63E2 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				495E413D2860960700AD63E2 /* Complicated Watch App.xcconfig */,
+				495E413C286095FB00AD63E2 /* Complicated.xcconfig */,
+				495E41392860942100AD63E2 /* Debug.xcconfig */,
+				495E41372860940900AD63E2 /* Deployment.xcconfig */,
+				495E413A2860942700AD63E2 /* Release.xcconfig */,
+				495E41382860941300AD63E2 /* Shared.xcconfig */,
+				495E413E2860960C00AD63E2 /* Widget.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		4993A521285EC70D005DD25E = {
+			isa = PBXGroup;
+			children = (
+				4993A529285EC70D005DD25E /* Products */,
+				495E4136286093E700AD63E2 /* Configurations */,
+				4993A532285EC70D005DD25E /* Complicated Watch App */,
+				4993A54F285EC762005DD25E /* Widget */,
+				4993A54A285EC762005DD25E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4993A529285EC70D005DD25E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4993A528285EC70D005DD25E /* Complicated.app */,
+				4993A52E285EC70D005DD25E /* Complicated Watch App.app */,
+				4993A549285EC762005DD25E /* Widget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4993A532285EC70D005DD25E /* Complicated Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				495E411D2860912100AD63E2 /* Info.plist */,
+				4993A533285EC70D005DD25E /* ComplicatedApp.swift */,
+				4993A535285EC70D005DD25E /* ContentView.swift */,
+				4993A537285EC70E005DD25E /* Assets.xcassets */,
+			);
+			path = "Complicated Watch App";
+			sourceTree = "<group>";
+		};
+		4993A54A285EC762005DD25E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4993A54B285EC762005DD25E /* WidgetKit.framework */,
+				4993A54D285EC762005DD25E /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4993A54F285EC762005DD25E /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				495E411C2860911700AD63E2 /* Widget.entitlements */,
+				4993A554285EC763005DD25E /* Info.plist */,
+				495E412E2860934200AD63E2 /* HourForecastView.swift */,
+				495E4134286093AC00AD63E2 /* Image.swift */,
+				495E41252860928900AD63E2 /* InlineLabel.swift */,
+				495E412B2860930A00AD63E2 /* Location.swift */,
+				4927885F2930C6F500B46095 /* RoundedTextView.swift */,
+				49BEC37529333FC800A0EED0 /* Shared.swift */,
+				4971D7D22930626E009AC493 /* StockQuote.swift */,
+				4971D7D0293060ED009AC493 /* StocksProvider.swift */,
+				4927885D2930714800B46095 /* StockView.swift */,
+				495E4128286092AE00AD63E2 /* Weather.swift */,
+				495E411F286091E600AD63E2 /* WeatherForecast.swift */,
+				495E41222860924300AD63E2 /* WeatherForecastView.swift */,
+				495E41312860937A00AD63E2 /* WeatherProvider.swift */,
+				4993A550285EC762005DD25E /* Widgets.swift */,
+				4993A552285EC763005DD25E /* Assets.xcassets */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4993A527285EC70D005DD25E /* Complicated */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4993A542285EC70E005DD25E /* Build configuration list for PBXNativeTarget "Complicated" */;
+			buildPhases = (
+				4993A526285EC70D005DD25E /* Resources */,
+				4993A541285EC70E005DD25E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4993A531285EC70D005DD25E /* PBXTargetDependency */,
+			);
+			name = Complicated;
+			productName = Complicated;
+			productReference = 4993A528285EC70D005DD25E /* Complicated.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		4993A52D285EC70D005DD25E /* Complicated Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4993A53E285EC70E005DD25E /* Build configuration list for PBXNativeTarget "Complicated Watch App" */;
+			buildPhases = (
+				4993A52A285EC70D005DD25E /* Sources */,
+				4993A52B285EC70D005DD25E /* Frameworks */,
+				4993A52C285EC70D005DD25E /* Resources */,
+				4993A55B285EC763005DD25E /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4993A556285EC763005DD25E /* PBXTargetDependency */,
+			);
+			name = "Complicated Watch App";
+			productName = "Complicated Watch App";
+			productReference = 4993A52E285EC70D005DD25E /* Complicated Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4993A548285EC762005DD25E /* Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4993A558285EC763005DD25E /* Build configuration list for PBXNativeTarget "Widget" */;
+			buildPhases = (
+				4993A545285EC762005DD25E /* Sources */,
+				4993A546285EC762005DD25E /* Frameworks */,
+				4993A547285EC762005DD25E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Widget;
+			productName = WidgetExtension;
+			productReference = 4993A549285EC762005DD25E /* Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4993A522285EC70D005DD25E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					4993A527285EC70D005DD25E = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					4993A52D285EC70D005DD25E = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					4993A548285EC762005DD25E = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 4993A525285EC70D005DD25E /* Build configuration list for PBXProject "Complicated" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4993A521285EC70D005DD25E;
+			productRefGroup = 4993A529285EC70D005DD25E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4993A527285EC70D005DD25E /* Complicated */,
+				4993A52D285EC70D005DD25E /* Complicated Watch App */,
+				4993A548285EC762005DD25E /* Widget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4993A526285EC70D005DD25E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4993A52C285EC70D005DD25E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4993A538285EC70E005DD25E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4993A547285EC762005DD25E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4993A553285EC763005DD25E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4993A52A285EC70D005DD25E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BEC37629333FC800A0EED0 /* Shared.swift in Sources */,
+				4993A536285EC70D005DD25E /* ContentView.swift in Sources */,
+				4993A534285EC70D005DD25E /* ComplicatedApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4993A545285EC762005DD25E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BEC37729333FC800A0EED0 /* Shared.swift in Sources */,
+				4993A551285EC762005DD25E /* Widgets.swift in Sources */,
+				4971D7D1293060ED009AC493 /* StocksProvider.swift in Sources */,
+				492788602930C6F500B46095 /* RoundedTextView.swift in Sources */,
+				495E413B2860959C00AD63E2 /* Image.swift in Sources */,
+				495E41242860926500AD63E2 /* WeatherForecastView.swift in Sources */,
+				495E41212860921F00AD63E2 /* WeatherForecast.swift in Sources */,
+				4971D7D32930626E009AC493 /* StockQuote.swift in Sources */,
+				495E41272860929000AD63E2 /* InlineLabel.swift in Sources */,
+				495E41332860938100AD63E2 /* WeatherProvider.swift in Sources */,
+				495E41302860935000AD63E2 /* HourForecastView.swift in Sources */,
+				4927885E2930714800B46095 /* StockView.swift in Sources */,
+				495E412D2860931A00AD63E2 /* Location.swift in Sources */,
+				495E412A286092B200AD63E2 /* Weather.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4993A531285EC70D005DD25E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4993A52D285EC70D005DD25E /* Complicated Watch App */;
+			targetProxy = 4993A530285EC70D005DD25E /* PBXContainerItemProxy */;
+		};
+		4993A556285EC763005DD25E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4993A548285EC762005DD25E /* Widget */;
+			targetProxy = 4993A555285EC763005DD25E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4993A53C285EC70E005DD25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495E41392860942100AD63E2 /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4993A53D285EC70E005DD25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495E413A2860942700AD63E2 /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		4993A53F285EC70E005DD25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495E413D2860960700AD63E2 /* Complicated Watch App.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4993A540285EC70E005DD25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495E413D2860960700AD63E2 /* Complicated Watch App.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		4993A543285EC70E005DD25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495E413C286095FB00AD63E2 /* Complicated.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4993A544285EC70E005DD25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495E413C286095FB00AD63E2 /* Complicated.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		4993A559285EC763005DD25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495E413E2860960C00AD63E2 /* Widget.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4993A55A285EC763005DD25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495E413E2860960C00AD63E2 /* Widget.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4993A525285EC70D005DD25E /* Build configuration list for PBXProject "Complicated" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4993A53C285EC70E005DD25E /* Debug */,
+				4993A53D285EC70E005DD25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4993A53E285EC70E005DD25E /* Build configuration list for PBXNativeTarget "Complicated Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4993A53F285EC70E005DD25E /* Debug */,
+				4993A540285EC70E005DD25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4993A542285EC70E005DD25E /* Build configuration list for PBXNativeTarget "Complicated" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4993A543285EC70E005DD25E /* Debug */,
+				4993A544285EC70E005DD25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4993A558285EC763005DD25E /* Build configuration list for PBXNativeTarget "Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4993A559285EC763005DD25E /* Debug */,
+				4993A55A285EC763005DD25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4993A522285EC70D005DD25E /* Project object */;
+}
